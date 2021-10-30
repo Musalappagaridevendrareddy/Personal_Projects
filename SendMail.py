@@ -9,6 +9,9 @@ ReceiverMail = 'whatiamgoingtobecome@gmail.com'  # Receiver mail
 subject = 'Automating the mail'  # Subject to the mail
 content = 'Testing the software'  # Content you want any thing to mention
 webbrowser.open('www.gmail.com')  # opening the browser
+keyboard.press('windows')
+keyboard.press_and_release('up')
+keyboard.release('windows')
 keyboard.wait('esc')  # If you are having any process complete and press enter
 
 time.sleep(3)  # waiting for some time
